@@ -22,6 +22,7 @@ flutter:
   assets:
     - assets/eartquakeArray.json
     - assets/eartquake.json
+    - assets/eartquakeNested.json
     - assets/eartquakeNamedArray.json
 
 

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:json_fetch_example/screens/array_to_model.dart';
+import 'package:json_fetch_example/screens/json_to_mode_nested.dart';
 import 'package:json_fetch_example/screens/json_to_model.dart';
 
 import 'screens/named_array_to_model.dart';
@@ -76,6 +77,18 @@ class _MyHomePageState extends State<MyHomePage> {
                                 const NamedArrayToModel()));
                   },
                   child: const Text("Named Json Array To Model")),
+            ),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                            builder: (BuildContext context) =>
+                                const JsonToModelNested()));
+                  },
+                  child: const Text("Json To Model Nested")),
             )
           ],
         ),

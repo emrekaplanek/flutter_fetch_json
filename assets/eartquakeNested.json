@@ -1,0 +1,13 @@
+{
+    "date": "2022.04.04",
+    "time": "18:40:55",
+    "latitude": "41.3085",
+    "longitude": "44.0673",
+    "deepness": "5.0",
+    "magnitude": "2.3",
+    "place": "Türkiye",
+    "city": {
+        "name": "Ankara",
+        "code": "06"
+    }
+}
