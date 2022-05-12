@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:json_fetch_example/models/eartquakeCity.dart';
 import 'package:json_fetch_example/services/request_service.dart';
@@ -35,7 +37,7 @@ class _JsonToModelNestedState extends State<JsonToModelNested> {
                           rawData = value;
 
                           // var data = json.decode(value); // CLEAR way
-                          // eartquake = Eartquake.fromMap(data);
+                          // eartquakeCity = EartquakeCity.fromMap(data);
 
                           eartquakeCity = EartquakeCity.fromJson(
                               value); // BEST and SHORTEST way
