@@ -1,0 +1,32 @@
+[
+    {
+        "date": "2022.04.04",
+        "time": "18:40:55",
+        "latitude": "41.3085",
+        "longitude": "44.0673",
+        "deepness": "5.0",
+        "magnitude": "2.3",
+        "place": "GURCISTAN",
+        "city": ""
+    },
+    {
+        "date": "2022.04.04",
+        "time": "11:29:26",
+        "latitude": "38.7618",
+        "longitude": "44.6658",
+        "deepness": "13.3",
+        "magnitude": "2.4",
+        "place": "TURKIYE-IRAN",
+        "city": ""
+    },
+    {
+        "date": "2022.04.04",
+        "time": "11:28:00",
+        "latitude": "39.0153",
+        "longitude": "44.3633",
+        "deepness": "8.8",
+        "magnitude": "2.4",
+        "place": "TURKIYE",
+        "city": ""
+    }
+]
